@@ -1,0 +1,158 @@
+{
+  "student_metadata": {
+    "name": "Sourabh Sarkar",
+    "roll_number": "230081",
+    "course": "Advanced Machine Learning",
+    "exam": "Mid-Semester Examination",
+    "part": "Part A",
+    "submission_date": "2026-03-02"
+  },
+
+  "selected_paper": {
+    "title": "Cost-Sensitive Semi-Supervised Support Vector Machine",
+    "authors": "Yu-Feng Li, James Kwok, Zhi-Hua Zhou",
+    "venue": "AAAI Conference on Artificial Intelligence (AAAI 2010)",
+    "year": 2010,
+    "official_link": "https://ojs.aaai.org/index.php/AAAI/article/view/7661",
+    "primary_method": "Support Vector Machine (SVM)",
+    "core_rank": "A*"
+  },
+
+  "llm_tools_used": [
+    {
+      "tool_name": "ChatGPT",
+      "model": "GPT-5.2",
+      "provider": "OpenAI"
+    },
+    {
+      "tool_name": "Gemini",
+      "model": "Gemini Pro",
+      "provider": "Google"
+    },
+    {
+      "tool_name": "Claude",
+      "model": "Claude Sonnet",
+      "provider": "Anthropic"
+    },
+    {
+      "tool_name": "Perplexity",
+      "model": "GPT-based",
+      "provider": "Perplexity AI"
+    }
+  ],
+
+  "full_llm_interaction_log": [
+    {
+      "interaction_id": 1,
+      "date": "2026-03-02",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5.2",
+      "purpose": "Understanding how to approach Part A and how to research valid papers",
+      "prompt": "How should I research a valid paper for AML Part A under the given constraints?",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Provided a structured plan: filter by CORE A* venues, check 2009–2012 year range, ensure method alignment (SVM/GMM/ARIMA), verify reproducibility, and avoid heavy compute papers.",
+      "student_verification": "I verified the constraints directly from the official Part A PDF before proceeding.",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 2,
+      "date": "2026-03-02",
+      "tool_name": "Gemini",
+      "model": "Gemini Pro",
+      "purpose": "Exploring candidate papers and understanding selection strategies",
+      "prompt": "How should I choose a good classical ML research paper that is easy to reproduce?",
+      "llm_response_used": "Partially",
+      "how_it_helped": "Suggested prioritizing papers with clear algorithms, public datasets, and manageable implementation scope. It also suggested avoiding highly theoretical or very long papers.",
+      "student_verification": "I cross-checked these suggestions manually by reviewing paper lengths and abstracts.",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 3,
+      "date": "2026-03-02",
+      "tool_name": "Perplexity",
+      "model": "GPT-based",
+      "purpose": "Checking candidate paper validity and venue ranking",
+      "prompt": "Is this paper from a CORE A* venue and within the allowed year range?",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Helped confirm venue reputation and historical conference data, which narrowed down valid candidates.",
+      "student_verification": "I verified venue rankings independently using CORE ranking lists and official conference pages.",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 4,
+      "date": "2026-03-02",
+      "tool_name": "Claude",
+      "model": "Claude Sonnet",
+      "purpose": "Cross-validating whether shortlisted papers satisfy all Part A constraints",
+      "prompt": "Does this paper satisfy all Part A requirements including reproducibility and method alignment?",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Provided detailed validation including method alignment, feasibility, and potential risks for Parts B and C.",
+      "student_verification": "I rechecked constraints manually against the instruction PDF.",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 5,
+      "date": "2026-03-02",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5.2",
+      "purpose": "Ensuring uniqueness and checking if the paper was already taken",
+      "prompt": "Check if this paper is already selected in the response sheet and whether it is safe to submit.",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Helped analyze the submission sheet and identify duplicates and safe choices.",
+      "student_verification": "I manually reviewed the shared response sheet to confirm uniqueness.",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 6,
+      "date": "2026-03-02",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5.2",
+      "purpose": "Final validation and form preparation",
+      "prompt": "Does this final paper fully satisfy all constraints and how should I fill the submission form?",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Helped summarize eligibility, confirm answers for form questions, and structure responses clearly.",
+      "student_verification": "I cross-checked final details using the AAAI official page and instruction PDF.",
+      "confidence_level": 5
+    }
+  ],
+
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 1,
+      "prompt": "How should I research a valid paper for AML Part A under the given constraints?",
+      "why_important": "This defined my overall strategy and prevented random paper selection by giving a structured filtering approach."
+    },
+    {
+      "rank": 2,
+      "interaction_id": 4,
+      "prompt": "Does this paper satisfy all Part A requirements including reproducibility and method alignment?",
+      "why_important": "Helped ensure that the paper meets academic constraints rather than just being interesting."
+    },
+    {
+      "rank": 3,
+      "interaction_id": 5,
+      "prompt": "Check if this paper is already selected in the response sheet and whether it is safe to submit.",
+      "why_important": "Uniqueness is critical due to disqualification risk, making this one of the most important validation steps."
+    },
+    {
+      "rank": 4,
+      "interaction_id": 3,
+      "prompt": "Is this paper from a CORE A* venue and within the allowed year range?",
+      "why_important": "Ensured formal eligibility and prevented accidental disqualification due to venue/year issues."
+    },
+    {
+      "rank": 5,
+      "interaction_id": 6,
+      "prompt": "Does this final paper fully satisfy all constraints and how should I fill the submission form?",
+      "why_important": "Helped finalize the submission confidently and ensured all answers were consistent with requirements."
+    }
+  ],
+
+  "student_declaration": {
+    "statement": "I declare that this JSON file contains a complete and honest record of my LLM usage for Part A. I used multiple LLMs to understand requirements, shortlist papers, validate eligibility, cross-check uniqueness, and structure my submission. All critical decisions were independently verified using the official instruction PDF, CORE rankings, and conference websites. I take full responsibility for the final submission and confirm that I can explain my selection independently without tools.",
+    "understanding_acknowledged": true,
+    "signature": "Sourabh Sarkar",
+    "date": "2026-03-02"
+  }
+}
