@@ -1,0 +1,49 @@
+{
+  "task_tag": "Task 2.3",
+  "code_used_verbatim": false,
+  "student_modification": "N/A",
+  "student_verification": {
+    "declaration": "I have reviewed all LLM-generated content and verified its correctness against the paper. All design decisions, ablation choices, and failure mode analysis are my own.",
+    "date": "2026-03-10"
+  },
+  "interactions": [
+    {
+      "prompt": "What are common reasons why reproduced results differ from paper results?",
+      "purpose": "Structure the gap analysis discussion in Task 2.3",
+      "llm_response_used": "Three reasons used: different dataset, fewer trials, implementation approximation",
+      "code_used_verbatim": false,
+      "student_modification": "N/A"
+    },
+    {
+      "prompt": "How to create a grouped bar chart in matplotlib for comparing multiple methods across cost ratios?",
+      "purpose": "Create the multi-cost-ratio comparison plot",
+      "llm_response_used": "Bar chart scaffold used",
+      "code_used_verbatim": true,
+      "student_modification": "Added offset x positions, custom labels and colors"
+    },
+    {
+      "prompt": "How do I format a markdown table in Jupyter notebooks?",
+      "purpose": "Create the results comparison table in markdown",
+      "llm_response_used": "Table syntax used",
+      "code_used_verbatim": true,
+      "student_modification": "All values filled in from actual experiment results"
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "prompt": "What are common reasons why reproduced results differ from paper results?",
+      "purpose": "Structure the gap analysis discussion in Task 2.3"
+    },
+    {
+      "rank": 2,
+      "prompt": "How to create a grouped bar chart in matplotlib for comparing multiple methods across cost ratios?",
+      "purpose": "Create the multi-cost-ratio comparison plot"
+    },
+    {
+      "rank": 3,
+      "prompt": "How do I format a markdown table in Jupyter notebooks?",
+      "purpose": "Create the results comparison table in markdown"
+    }
+  ]
+}

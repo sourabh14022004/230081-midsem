@@ -1,0 +1,25 @@
+{
+  "task_tag": "Task 4.2",
+  "code_used_verbatim": false,
+  "student_modification": "N/A",
+  "student_verification": {
+    "declaration": "I have reviewed all LLM-generated content and verified its correctness against the paper. All design decisions, ablation choices, and failure mode analysis are my own.",
+    "date": "2026-03-10"
+  },
+  "interactions": [
+    {
+      "prompt": "What fields are required in an LLM disclosure JSON file for an academic submission?",
+      "purpose": "Structure the LLM disclosure files correctly per the exam spec",
+      "llm_response_used": "JSON structure template - adapted to match exact spec requirements",
+      "code_used_verbatim": false,
+      "student_modification": "All content is original; used spec document to determine required fields"
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "prompt": "What fields are required in an LLM disclosure JSON file for an academic submission?",
+      "purpose": "Structure the LLM disclosure files correctly per the exam spec"
+    }
+  ]
+}

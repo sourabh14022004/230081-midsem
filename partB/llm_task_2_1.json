@@ -1,0 +1,49 @@
+{
+  "task_tag": "Task 2.1",
+  "code_used_verbatim": false,
+  "student_modification": "N/A",
+  "student_verification": {
+    "declaration": "I have reviewed all LLM-generated content and verified its correctness against the paper. All design decisions, ablation choices, and failure mode analysis are my own.",
+    "date": "2026-03-10"
+  },
+  "interactions": [
+    {
+      "prompt": "Why is the Breast Cancer Wisconsin dataset appropriate for testing cost-sensitive semi-supervised learning?",
+      "purpose": "Verify dataset choice reasoning before writing the justification markdown",
+      "llm_response_used": "Confirmed medical motivation alignment; wrote justification in own words",
+      "code_used_verbatim": false,
+      "student_modification": "N/A"
+    },
+    {
+      "prompt": "How do I create a stratified train-test split while ensuring labeled examples have both classes?",
+      "purpose": "Implement the get_balanced_split function",
+      "llm_response_used": "Code logic adapted - added balanced class selection to avoid one-class issues",
+      "code_used_verbatim": true,
+      "student_modification": "Added class-stratified sampling to fix SVM training error with single-class labeled sets"
+    },
+    {
+      "prompt": "How do I remap sklearn binary labels to +1/-1 format?",
+      "purpose": "Understand label conversion for SVM compatibility",
+      "llm_response_used": "Used the formula (target*2-1)",
+      "code_used_verbatim": true,
+      "student_modification": "None needed - standard formula"
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "prompt": "Why is the Breast Cancer Wisconsin dataset appropriate for testing cost-sensitive semi-supervised learning?",
+      "purpose": "Verify dataset choice reasoning before writing the justification markdown"
+    },
+    {
+      "rank": 2,
+      "prompt": "How do I create a stratified train-test split while ensuring labeled examples have both classes?",
+      "purpose": "Implement the get_balanced_split function"
+    },
+    {
+      "rank": 3,
+      "prompt": "How do I remap sklearn binary labels to +1/-1 format?",
+      "purpose": "Understand label conversion for SVM compatibility"
+    }
+  ]
+}

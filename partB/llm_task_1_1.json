@@ -1,0 +1,49 @@
+{
+  "task_tag": "Task 1.1",
+  "code_used_verbatim": false,
+  "student_modification": "N/A",
+  "student_verification": {
+    "declaration": "I have reviewed all LLM-generated content and verified its correctness against the paper. All design decisions, ablation choices, and failure mode analysis are my own.",
+    "date": "2026-03-10"
+  },
+  "interactions": [
+    {
+      "prompt": "What are the main steps of CS4VM from input to output based on equations 1-9?",
+      "purpose": "To understand the algorithm flow before writing the step-by-step description",
+      "llm_response_used": "Used to verify my understanding of the paper's structure",
+      "code_used_verbatim": false,
+      "student_modification": "N/A"
+    },
+    {
+      "prompt": "Explain what label means are in the context of SVM kernel spaces",
+      "purpose": "Clarify the role of m+ and m- in feature space",
+      "llm_response_used": "Background clarification only",
+      "code_used_verbatim": false,
+      "student_modification": "N/A"
+    },
+    {
+      "prompt": "What does Theorem 1 in the CS4VM paper imply about the quality of label mean estimates?",
+      "purpose": "Understand the theoretical guarantee for the final summary sentence",
+      "llm_response_used": "Helped phrase the summary sentence accurately",
+      "code_used_verbatim": false,
+      "student_modification": "N/A"
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "prompt": "What are the main steps of CS4VM from input to output based on equations 1-9?",
+      "purpose": "To understand the algorithm flow before writing the step-by-step description"
+    },
+    {
+      "rank": 2,
+      "prompt": "Explain what label means are in the context of SVM kernel spaces",
+      "purpose": "Clarify the role of m+ and m- in feature space"
+    },
+    {
+      "rank": 3,
+      "prompt": "What does Theorem 1 in the CS4VM paper imply about the quality of label mean estimates?",
+      "purpose": "Understand the theoretical guarantee for the final summary sentence"
+    }
+  ]
+}

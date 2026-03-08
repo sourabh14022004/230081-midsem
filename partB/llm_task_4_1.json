@@ -1,0 +1,37 @@
+{
+  "task_tag": "Task 4.1",
+  "code_used_verbatim": false,
+  "student_modification": "N/A",
+  "student_verification": {
+    "declaration": "I have reviewed all LLM-generated content and verified its correctness against the paper. All design decisions, ablation choices, and failure mode analysis are my own.",
+    "date": "2026-03-10"
+  },
+  "interactions": [
+    {
+      "prompt": "How do I use reportlab to create a 4-page academic report with tables and images?",
+      "purpose": "Build the report.pdf using reportlab",
+      "llm_response_used": "reportlab Platypus framework code used as scaffold",
+      "code_used_verbatim": true,
+      "student_modification": "All content, analysis, and interpretation written by me; code scaffold for layout only"
+    },
+    {
+      "prompt": "How to embed images from file into a reportlab PDF?",
+      "purpose": "Include experiment plots in the report",
+      "llm_response_used": "reportlab Image() import and usage",
+      "code_used_verbatim": true,
+      "student_modification": "None needed for basic image embedding"
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "prompt": "How do I use reportlab to create a 4-page academic report with tables and images?",
+      "purpose": "Build the report.pdf using reportlab"
+    },
+    {
+      "rank": 2,
+      "prompt": "How to embed images from file into a reportlab PDF?",
+      "purpose": "Include experiment plots in the report"
+    }
+  ]
+}

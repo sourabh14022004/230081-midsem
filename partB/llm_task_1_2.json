@@ -1,0 +1,61 @@
+{
+  "task_tag": "Task 1.2",
+  "code_used_verbatim": false,
+  "student_modification": "N/A",
+  "student_verification": {
+    "declaration": "I have reviewed all LLM-generated content and verified its correctness against the paper. All design decisions, ablation choices, and failure mode analysis are my own.",
+    "date": "2026-03-10"
+  },
+  "interactions": [
+    {
+      "prompt": "What assumptions does the balance constraint in Eq 2 of CS4VM rely on?",
+      "purpose": "Identify Assumption 2 about u+ specification",
+      "llm_response_used": "Cross-check against paper reading",
+      "code_used_verbatim": false,
+      "student_modification": "N/A"
+    },
+    {
+      "prompt": "What is the cluster assumption in semi-supervised SVMs and where does it appear in CS4VM?",
+      "purpose": "Identify Assumption 1 about cluster structure",
+      "llm_response_used": "Background only",
+      "code_used_verbatim": false,
+      "student_modification": "N/A"
+    },
+    {
+      "prompt": "How does class-dependent vs example-dependent cost affect the CS4VM formulation?",
+      "purpose": "Understand Assumption 3 about cost structure",
+      "llm_response_used": "Verified my reading of the Related Work section",
+      "code_used_verbatim": false,
+      "student_modification": "N/A"
+    },
+    {
+      "prompt": "Give me a real-world scenario where class-dependent cost assumption is violated",
+      "purpose": "Find a concrete violation scenario for Assumption 3",
+      "llm_response_used": "Fraud detection example - adapted to fit Assumption 3 specifically",
+      "code_used_verbatim": false,
+      "student_modification": "Adapted from generic example to CS4VM context"
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "prompt": "What assumptions does the balance constraint in Eq 2 of CS4VM rely on?",
+      "purpose": "Identify Assumption 2 about u+ specification"
+    },
+    {
+      "rank": 2,
+      "prompt": "What is the cluster assumption in semi-supervised SVMs and where does it appear in CS4VM?",
+      "purpose": "Identify Assumption 1 about cluster structure"
+    },
+    {
+      "rank": 3,
+      "prompt": "How does class-dependent vs example-dependent cost affect the CS4VM formulation?",
+      "purpose": "Understand Assumption 3 about cost structure"
+    },
+    {
+      "rank": 4,
+      "prompt": "Give me a real-world scenario where class-dependent cost assumption is violated",
+      "purpose": "Find a concrete violation scenario for Assumption 3"
+    }
+  ]
+}

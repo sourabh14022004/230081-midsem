@@ -1,0 +1,73 @@
+{
+  "task_tag": "Task 2.2",
+  "code_used_verbatim": false,
+  "student_modification": "N/A",
+  "student_verification": {
+    "declaration": "I have reviewed all LLM-generated content and verified its correctness against the paper. All design decisions, ablation choices, and failure mode analysis are my own.",
+    "date": "2026-03-10"
+  },
+  "interactions": [
+    {
+      "prompt": "How can I implement the CS4VM label mean estimation step using sklearn SVC?",
+      "purpose": "Translate the iterative procedure from Eq 7-8 into sklearn code",
+      "llm_response_used": "Core algorithm structure used as scaffold - extensively modified for correctness",
+      "code_used_verbatim": false,
+      "student_modification": "Added balanced split, fixed one-class edge case, added proper cost weights for virtual mean points matching paper's Eq 6"
+    },
+    {
+      "prompt": "How to add sample weights to sklearn SVC?",
+      "purpose": "Implement the weighted virtual mean points for Eq 6",
+      "llm_response_used": "Learned about sample_weight parameter in fit()",
+      "code_used_verbatim": false,
+      "student_modification": "N/A"
+    },
+    {
+      "prompt": "Explain the relationship between Eq 6 and Eq 9 in the CS4VM paper - how does the dual form arise?",
+      "purpose": "Understand what the code needs to implement for Eq 9",
+      "llm_response_used": "Background only - used to verify the virtual mean point approach",
+      "code_used_verbatim": false,
+      "student_modification": "N/A"
+    },
+    {
+      "prompt": "How do I compute false negatives and false positives for binary labels in +1/-1 format?",
+      "purpose": "Implement the total_cost metric function",
+      "llm_response_used": "Used boolean indexing pattern",
+      "code_used_verbatim": true,
+      "student_modification": "None needed - standard boolean mask"
+    },
+    {
+      "prompt": "How to create side-by-side boxplots and line plots in matplotlib?",
+      "purpose": "Create the reproduction result visualization",
+      "llm_response_used": "Plot scaffolding used",
+      "code_used_verbatim": true,
+      "student_modification": "Labels, colors, and titles all customised for this experiment"
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "prompt": "How can I implement the CS4VM label mean estimation step using sklearn SVC?",
+      "purpose": "Translate the iterative procedure from Eq 7-8 into sklearn code"
+    },
+    {
+      "rank": 2,
+      "prompt": "How to add sample weights to sklearn SVC?",
+      "purpose": "Implement the weighted virtual mean points for Eq 6"
+    },
+    {
+      "rank": 3,
+      "prompt": "Explain the relationship between Eq 6 and Eq 9 in the CS4VM paper - how does the dual form arise?",
+      "purpose": "Understand what the code needs to implement for Eq 9"
+    },
+    {
+      "rank": 4,
+      "prompt": "How do I compute false negatives and false positives for binary labels in +1/-1 format?",
+      "purpose": "Implement the total_cost metric function"
+    },
+    {
+      "rank": 5,
+      "prompt": "How to create side-by-side boxplots and line plots in matplotlib?",
+      "purpose": "Create the reproduction result visualization"
+    }
+  ]
+}

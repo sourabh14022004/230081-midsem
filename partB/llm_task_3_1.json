@@ -1,0 +1,49 @@
+{
+  "task_tag": "Task 3.1",
+  "code_used_verbatim": false,
+  "student_modification": "N/A",
+  "student_verification": {
+    "declaration": "I have reviewed all LLM-generated content and verified its correctness against the paper. All design decisions, ablation choices, and failure mode analysis are my own.",
+    "date": "2026-03-10"
+  },
+  "interactions": [
+    {
+      "prompt": "What two components of CS4VM are most important to ablate and why?",
+      "purpose": "Choose which components to ablate for Task 3.1",
+      "llm_response_used": "Suggested label mean estimation and cost weighting - confirmed as the right choice from paper structure",
+      "code_used_verbatim": false,
+      "student_modification": "Final choice and reasoning are my own"
+    },
+    {
+      "prompt": "How do I run the same experiment with two different model configurations and compare them?",
+      "purpose": "Structure the ablation experiment loop",
+      "llm_response_used": "Code structure used as scaffold",
+      "code_used_verbatim": true,
+      "student_modification": "Added balanced split, adapted to CS4VM class interface, added FN/FP breakdown"
+    },
+    {
+      "prompt": "How to create a boxplot comparing two distributions in matplotlib?",
+      "purpose": "Visualization for ablation comparison",
+      "llm_response_used": "Boxplot syntax used",
+      "code_used_verbatim": true,
+      "student_modification": "Labels, colors, layout all customised"
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "prompt": "What two components of CS4VM are most important to ablate and why?",
+      "purpose": "Choose which components to ablate for Task 3.1"
+    },
+    {
+      "rank": 2,
+      "prompt": "How do I run the same experiment with two different model configurations and compare them?",
+      "purpose": "Structure the ablation experiment loop"
+    },
+    {
+      "rank": 3,
+      "prompt": "How to create a boxplot comparing two distributions in matplotlib?",
+      "purpose": "Visualization for ablation comparison"
+    }
+  ]
+}
